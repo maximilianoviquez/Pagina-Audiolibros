@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* GENERAL */
+:root{
+    --colornegro:rgb(0, 0, 0);
+    --colordorado:rgb(217, 155, 22);
+    --colorblanco:rgb(255, 255, 255);
+    --colorgris:rgb(178, 178, 178);
+    --colorgrisgradiant: rgba(255, 255, 255, 0.325);
+    --coloragua: rgba(16, 97, 113, 0.607);
+    --colornegroesfumado: rgba(0, 0, 0, 0.607);
+}
+body{
+    background-color: var(--colornegro);
+    font-family: 'Glory', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+h2,h3,h4,p{
+    color: var(--colorblanco);
+}
+
+a{
+    color: var(--colornegro);
+    text-decoration:none;
+}
+a:hover{
+    color:var(--colordorado);
+    text-decoration:dotted;
+}
+.imgobjectfit {
+    max-width: 100%;
+    height: auto; 
+    object-fit: cover;
+    object-position: center;
+}
+.imgleft {
+    max-width: 250px; 
+}
+.imgrigth {
+    max-width: 300px; 
+    margin-left: 20px;
+}
+/* SECCION HEADER-MENU */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    margin-left: 10px;
+    width: 100px;
+}
+.MenuNavegacion{
+    background-color: var(--colornegro);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+nav ul{
+    width:800px;   
+    list-style-type: none;
+    display: flex;
+    
+}
+nav ul li{
+    flex:1;
+}
+nav ul li a{
+    display: block;
+    border: 1px solid var(--colornegro);
+    margin: 0 10px 0 0;
+    line-height: 40px;
+    text-align: center;
+    background-color:var(--colorblanco);
+    border-radius: 10px;
+}
+nav ul li a:hover{
+    background-color:var(--colordorado);
+    color: var(--colornegro);
+}
+/* SECCION BIENVENIDO */
+section#bienvenido{
+    padding: 30px;
+    background-image: url(img/ai-generated-8298163_1280.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.divBienvenido a{
+    background-color: var(--colorblanco);
+    padding: 10px;
+    border-radius: 5px;
+}
+.divBienvenido a:hover{
+    background-color: var(--colordorado);
+    padding: 10px;
+    color: var(--colornegro);
+}
+.divBienvenido{
+    text-align: center;
+    margin: 20%;
+    padding: 150px;
+    background-color:var(--colorgrisgradiant);
+    border-radius: 20px;
+}
+.divBienvenido h1 {
+    margin: 0 auto;
+}
+.divBienvenido p {
+    margin: 20px 0;
+}
+
+/* TOP ESCUCHADO */
+#TopEscuchado {
+    background-image: url(img/statue-7992124_1280.webp);
+    background-size: cover;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.divTopEscuchado {
+    width: 1200px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: [fila1] 1fr [fila2] 1fr [fila3] 1fr [fila4] 1fr;
+    grid-template-columns: [linea1] 1fr [linea2] 1fr [linea3] 1fr [linea4] 1fr;
+    gap: 10px;
+    border-radius: 20px;
+}
+div.divTopEscuchado{
+    height: 2900px;
+}
+.encabezadogrid{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+.divTopEscuchado article {
+    margin: 0px;
+    padding: 10px;
+    background-color:var(--colornegroesfumado);
+    color: var(--colorblanco);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#articulo0 {
+    display: flex; 
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#articulo2,#articulo3{
+    background-color:var(--colornegroesfumado);
+}
+#articulo8{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#articulo9{
+    background-image: url(img/soldados-terracota-fila-historia-china-antigua-generada-ia_188544-38176.jpg);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#articuloNuevo {
+    background-color:var(--colornegroesfumado);
+    grid-row-start: 3; 
+    grid-row-end: 5; 
+}
+
+/* NOVEDADES */
+#sectionnovedades{
+    background-color: var(--colornegro);
+    padding: 40px;
+}
+.divnovedades{
+    width: 1200px;
+    background-image: url(img/statue-7992124_1280.webp);
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px 50px;
+    justify-content:  center;
+}
+#sectionnovedades h2{
+    margin: 20px;
+    width: 100%;
+    color: var(--colorblanco);
+}
+#art1, #art2{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+#art1 a{
+    background-color: var(--colorblanco);
+    padding: 8px;
+    border-radius: 10px;
+}
+#art2 a{
+    background-color: var(--colorblanco);
+    padding: 8px;
+    border-radius: 10px;
+}
+#art1 a:hover{
+    background-color: var(--colordorado);
+    color: var(--colornegro);
+}
+#art2 a:hover{
+    background-color: var(--colordorado);
+    color: var(--colornegro);
+}
+/* NOSOTROS */
+section#nosotros{
+    background-color: var(--colornegro);
+    padding: 40px;
+
+}
+.nosotros{
+    width: 1200px;
+    background-color: var(--colornegro);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px 50px;
+    justify-content:  center;
+    border-radius: 10px;
+    
+}
+.nosotrossuscribite{
+    width: 50%;
+    background-color:var(--colornegro);
+    flex: 1;
+    gap: 10px;
+    padding: 0px;
+    margin: 20px;
+    
+}
+.nosotrossuscribite h2{
+    width: 100%
+}
+.nosotrosimg {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.nosotrossuscribite form{
+    padding: 5px;
+    margin: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.nosotrossuscribite #submit{
+    width: 40%;
+    margin-left: 5px;
+    background-color: var(--colorblanco);
+    color: var(--colornegro);
+    border-radius: 5px;
+
+}
+.nosotrossuscribite #submit:hover{
+    background-color: var(--colordorado);
+}
+figcaption {
+    text-align: center; 
+    font-size: 14px; 
+    margin-top: 10px;
+    color: var(--colorblanco);
+}
+/* CONTACTO */
+#contacto{
+    background-color: var(--colornegro);
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorcontacto{
+    width: 1200px;
+    background-image: url(img/man-7992123_1920.jpg);
+    background-size: cover;
+    background-position: center 40%; 
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px 50px;
+    justify-content:  center;
+}
+.contacto{
+    width: 80%;
+    flex: 1;
+    margin: 100px;
+    padding: 20px;
+}
+section#formulario{
+flex: 1;
+display: flex;
+gap: 10px;
+}
+/* FORMULARIO */
+form{
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+section#formulario h1, p{
+    margin: 10px 0;
+    color: var(--colorblanco);
+}
+fieldset{
+    padding: 10px;
+    margin: 20px 0;
+    color:var(--colorblanco);
+    border-radius: 5px;
+    border: none;
+}
+legend{
+    font-size: 20px;
+    padding: 0 10px;
+}
+input, select, textarea {
+    border: none;
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin:0 0 20px 0 ;
+    transition: width 1s;
+    border-radius: 5px;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: 30px;
+}
+label {
+    display: block;
+}
+input[type="radio"]+label, input[type="checkbox"]+label{
+    display: inline;
+}
+textarea{
+    height: 100px;
+    resize: none;
+    background-color:  var(--colorblanco);
+}
+select{
+    width: 150px;
+    background-color:  var(--colorblanco);
+}
+input:focus,textarea:focus{
+    outline:none;
+    background-color:  var(--colorblanco);
+}
+input:required{
+    background-color:  var(--colorblanco);
+}
+input:valid{
+    background-color: var(--colorblanco);
+}
+textarea:hover{
+    background-color: var(--colorgris);
+}
+input:hover{
+    background-color: var(--colorgris);
+}
+input::placeholder{
+    color:var(--colornegro);
+}
+input[type="submit"]{
+    width: 200px;
+    border:none;
+    background-color:var(--colorblanco);
+    color:var(--colornegro);
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background-color:var(--colordorado);
+    cursor: pointer;
+}
+fieldset#botonenviar{
+    text-align: right;
+    margin-top: -40px;
+}
+/* FOOTER */
+footer {
+    background-color:var(--colornegro);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+figure#futer img {
+    width: 100px;
+    margin-right: auto; 
+    margin-left: 150px;
+}
+footer img{
+    width: 50px;
+}
+#footer ul{
+    width: 0%;
+    gap: 5px;
+    margin-right: 150px;
+}
+#footer ul li a {
+    background-color:var(--colornegro);
+    width: 60px; 
+    border-color:var(--colorblanco);
+}
+#footer ul li a:hover {
+    background-color:var(--colordorado);
+}
+
+
+
+
+
+
+
