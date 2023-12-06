@@ -2,7 +2,7 @@
 
 Esta es una pagina web de Audiolibros creada con HTML y CSS.
 
-## Autor -
+## Autor ✒️
 **Maximiliano Viquez**
 
 *[LinkedIn](https://www.linkedin.com/in/maximiliano-viquez/)
