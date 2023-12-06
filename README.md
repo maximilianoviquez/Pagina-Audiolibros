@@ -9,7 +9,7 @@ Esta es una pagina web de Audiolibros creada con HTML y CSS.
 *[Pagina-Audiolibros]()
 
 ## Ver ejemplo en vivo
-- [ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
+- [https://maximilianoviquez.github.io/Pagina-Audiolibros/]([ENLACEGITHUBPAGES](https://maximilianoviquez.github.io/Pagina-Audiolibros/))
 
 ## Instalacion
 Este proyecto no necesita de instalacion. simplemente abre la carpeta o haz click en el .html
