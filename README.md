@@ -5,7 +5,7 @@ Esta es una pagina web de Audiolibros creada con HTML y CSS.
 ## Autor ✒️
 **Maximiliano Viquez**
 
-*[LinkedIn](https://www.linkedin.com/in/maximiliano-viquez/)
+*[LinkedIn]([https://www.linkedin.com/in/maximiliano-viquez/](https://maximilianoviquez.github.io/Pagina-Audiolibros/))
 *[Pagina-Audiolibros]()
 
 ## Ver ejemplo en vivo
